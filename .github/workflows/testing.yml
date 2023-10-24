@@ -4,13 +4,13 @@ on: [push, pull_request]
  
 jobs:
   testAllModes:
-    name: Test in ${{ matrix.testMode }}
+    name: Test in ${{ Testing.testMode }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         projectPath:
-          - Testing/Testing
+          - Testing
         testMode:
           - playmode
           - editmode
