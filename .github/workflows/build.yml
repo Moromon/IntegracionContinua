@@ -9,6 +9,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        projectPath:  
+          - Testing~/
         targetPlatform:
           - WebGL # WebGL.
     steps:
