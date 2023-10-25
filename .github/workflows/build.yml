@@ -11,7 +11,7 @@ jobs:
       matrix:
         targetPlatform:
           - WebGL # WebGL.
-        unityVersion: '2022.3.5f1'
+        unityVersion: ['2022.3.5f1']
     steps:
       - uses: actions/checkout@v2
         with:
